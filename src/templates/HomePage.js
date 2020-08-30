@@ -5,6 +5,8 @@ import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
 
+import danceGroup1 from '../../static/images/danceGroup1.jpeg'
+
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
   <main className="Home">
@@ -12,7 +14,7 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
       large
       title={title}
       subtitle={subtitle}
-      backgroundImage={featuredImage}
+      backgroundImage={danceGroup1}
     />
 
     <section className="section">
