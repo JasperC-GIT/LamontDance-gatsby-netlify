@@ -1,9 +1,19 @@
 ---
 template: HomePage
 slug: ''
-title: Yellowcake
-featuredImage: 'https://ucarecdn.com/159203d3-881d-4218-baa1-ca4427b48d0d/'
-subtitle: ' Welcome to the ultimate Gatsby and Netlify starter project.'
+title: Lamont Dance Theatre
+featuredImage: >-
+  https://ucarecdn.com/3ccb9660-cfcb-4be9-bdea-c63c47f34b59/-/preview/-/enhance/76/
+subtitle: >-
+  At Lamont, we are passionate about creating confident children who become
+  confident Adults through the Joy of Dance.
+
+
+  Lamont Dance and Theatre is located at Avalon Beach on Sydney’s Northern
+  Beaches. With 2 fully equipped studio’s in one convenient location, Lamont has
+  fast become the place to go for students of any level to develop and sustain
+  their chosen craft. We have wonderful programs for all children to start
+  learning and create a great foundation in dance.
 meta:
   description: This is a meta description.
   title: The Ultimate Gatsby Starter
