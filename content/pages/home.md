@@ -3,7 +3,7 @@ template: HomePage
 slug: ''
 title: Lamont Dance Theatre
 featuredImage: >-
-  https://ucarecdn.com/3ccb9660-cfcb-4be9-bdea-c63c47f34b59/-/preview/-/enhance/76/
+  https://ucarecdn.com/2a6d9138-a74a-4d3f-8318-c8c0839f1307/-/crop/2449x1458/0,175/-/preview/-/enhance/61/
 subtitle: >-
   At Lamont, we are passionate about creating confident children who become
   confident Adults through the Joy of Dance.
