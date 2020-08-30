@@ -50,12 +50,10 @@ export class Navigation extends Component {
           </Link>
           <div className="Nav--Links">
             <NavLink to="/">Home</NavLink>
-            <NavLink to="/components/">Components</NavLink>
-            <div
-              className={`Nav--Group ${
-                this.state.activeSubNav === 'posts' ? 'active' : ''
-              }`}
-            >
+            <NavLink to="/components/">About</NavLink>
+            <NavLink to="/default/">Default</NavLink>
+            <NavLink to="/contact/">Contact</NavLink>
+            <div className={`Nav--Group ${this.state.activeSubNav === 'posts' ? 'active' : ''}`} >
               <span
                 className={`NavLink Nav--GroupParent ${
                   this.props.location.pathname.includes('posts') ||
@@ -64,8 +62,7 @@ export class Navigation extends Component {
                     ? 'active'
                     : ''
                 }`}
-                onClick={() => this.toggleSubNav('posts')}
-              >
+                onClick={() => this.toggleSubNav('posts')} >
                 Blog
                 <div className="Nav--GroupLinks">
                   <NavLink to="/blog/" className="Nav--GroupLink">
@@ -83,8 +80,6 @@ export class Navigation extends Component {
                 </div>
               </span>
             </div>
-            <NavLink to="/default/">Default</NavLink>
-            <NavLink to="/contact/">Contact</NavLink>
           </div>
           <button
             className="Button-blank Nav--MenuButton"
