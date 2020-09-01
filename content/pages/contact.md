@@ -11,9 +11,6 @@ address: |-
 phone: '99187304'
 email: lamontdance@gmail.com@example.com
 locations:
-  - lat: '-27.9654732'
-    lng: '153.2432449'
-    mapLink: ''
   - lat: '-33.636277'
     lng: '151.329490'
     mapLink: ''
