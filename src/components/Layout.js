@@ -61,7 +61,6 @@ export default ({ children, meta, title }) => {
               <link rel="dns-prefetch" href="https://ucarecdn.com" />
               {/* Add font link tags here */}
             </Helmet>
-
             <Meta
               googleTrackingId={googleTrackingId}
               absoluteImageUrl={
@@ -74,11 +73,8 @@ export default ({ children, meta, title }) => {
             />
 
 
-
             <Nav subNav={subNav} />
-
             <Fragment>{children}</Fragment>
-
             <Footer />
           </Fragment>
         )
