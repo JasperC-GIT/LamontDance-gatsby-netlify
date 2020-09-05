@@ -24,7 +24,8 @@ meta:
 ---
 Lamont Dance Theatre offers RAD Ballet, Jazz, Hip Hop, Tap, Musical Theatre, Lyrical, Contemporary and Pilates. We offer classes to suit all students levels from Elite to Recreational as well as performance groups. Performance Groups are by Audition or Invitation only.
 
-# Features
+# Features {align=center}
+
 
 * **[Gatsby](https://gatsbyjs.org)** static site generator
 * **[Netlify CMS](https://github.com/netlify/netlify-cms)** for content management

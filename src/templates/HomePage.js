@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
+import InstagramFeed from '../components/InstagramFeed'
 
 
 // Export Template for use in CMS preview
@@ -28,7 +29,9 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
 const HomePage = ({ data: { page } }) => (
   <Layout meta={page.frontmatter.meta || false}>
     <HomePageTemplate {...page} {...page.frontmatter} body={page.html} />
+    <InstagramFeed />
   </Layout>
+
 )
 
 export default HomePage
